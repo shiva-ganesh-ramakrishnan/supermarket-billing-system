@@ -26,7 +26,7 @@ Follow these steps to get your development environment running:
    git clone https://github.com/yourusername/supermarket-billing-system.git
    cd supermarket-billing-system
 
-2. **Database Setup
+2. **Database Setup**
   Install MySQL on your machine and start the MySQL server.
   Create a database named supermarket.
     ```sql
@@ -37,14 +37,14 @@ Follow these steps to get your development environment running:
     mysql -u root -p supermarket < path/to/supermarket.sql
     
     
-3. **Configure MySQL Credentials
+3. **Configure MySQL Credentials**
   Navigate to the Java DB connection class (usually found at src/main/java/Project/ConnectionProvider.java).
   Update the MySQL connection properties by replacing the strings "root" and "Enter_Your_Password" with your MySQL  username and password respectively.
   
     ```Java
     Connection conn = DriverManager.getConnection(url,"root","Enter_Your_Password");
   
-4. **Update Image Paths
+4. **Update Image Paths**
   The application uses images for a better user interface experience. You need to update the paths to these images in every JFrame file.
   Search for lines containing setIconImage and ImageIcon and update the paths accordingly.
     ```Java    
@@ -53,12 +53,12 @@ Follow these steps to get your development environment running:
   
 ## Running the Application
 
-  1. **Open the Project
+  1. **Open the Project**
   Open the project in your preferred Java IDE.
   Do a maven clean install to verify if the dependencies are working.
   Right click on the project and select Run (or) Find the main class under the source directory, Login.java, and run it to start the application.
 
-  2. **Login to the Application
+  2. **Login to the Application**
   Use the default credentials in the Login.
   
   Once you start the application, you will be presented with a login screen. Enter your username and password to access the main dashboard.
