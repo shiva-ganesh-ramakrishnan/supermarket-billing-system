@@ -63,10 +63,10 @@ Follow these steps to get your development environment running:
   Usage
   Once you start the application, you will be presented with a login screen. Enter your username and password to access the main dashboard.
   
- *** Dashboard: Navigate through different functionalities like adding products, generating bills, and viewing reports.
- *** Product Management: Go to the Products section to add, edit, or delete products.
- *** Billing: Select products, add them to the cart, and generate an invoice by going to the Billing section.
- *** Reports: View sales and product reports in the Reports section.
+ #### Dashboard: Navigate through different functionalities like adding products, generating bills, and viewing reports.
+ #### Product Management: Go to the Products section to add, edit, or delete products.
+ #### Billing: Select products, add them to the cart, and generate an invoice by going to the Billing section.
+ #### Reports: View sales and product reports in the Reports section.
 ## Contributing
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
