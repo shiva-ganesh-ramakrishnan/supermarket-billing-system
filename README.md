@@ -60,7 +60,7 @@ Follow these steps to get your development environment running:
 
   2. **Login to the Application
   Use the default credentials in the Login.
-  Usage
+  
   Once you start the application, you will be presented with a login screen. Enter your username and password to access the main dashboard.
   
  #### Dashboard: Navigate through different functionalities like adding products, deleting products, generating bills.
